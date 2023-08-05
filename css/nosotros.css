@@ -1,0 +1,46 @@
+.quienes{
+    max-width: 500px;
+    margin-left: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    justify-content: left;
+}
+
+.vis-mis{
+    display: flex;
+    margin-top: 30px;
+}
+
+.nosotros{
+    display: inline;
+}
+
+.vision{
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.mision{
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    color: #007bff;
+    margin-top: 50px;
+    padding-top: 50px;
+    margin-left: 20px;
+}
+
+p {
+    margin-bottom: 20px;
+}
