@@ -20,6 +20,6 @@
                 <p>Ser la empresa de referencia del sector del transporte y la logística gracias al compromiso, implicación y los servicios flexibles y ajustados a las necesidades de los clientes para poder transportar cualquier tipo de mercancía creando un vínculo a largo plazo con estos clientes.</p>
 
             <h2>Misión</h2>
-                <p>Proporcionar los servicios de transporte y logística en el ámbito nacional e internacional de una manera profesional, cubriendo las necesidades de los clientes y proporcionando un trato personalizado para que cumplan sus objetivos.</p>
+                <p>Proporcionar los servicios de transporte y logística en el ámbito nacional de una manera profesional, cubriendo las necesidades de los clientes y proporcionando un trato personalizado para que cumplan sus objetivos.</p>
     </body>
 </html>
