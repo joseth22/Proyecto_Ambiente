@@ -1,12 +1,31 @@
-.contenido {
+/* Estilos generales para el contenedor */
+.container {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 80vh;
-    background: #F7C295;
-}
-  body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 20px;
-}
+  }
+  
+  /* Estilos para el cuadro "Quiénes somos" */
+  .left {
+    flex: 1;
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  
+  /* Estilos para el contenedor de los cuadros de la derecha */
+  .right {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Estilos para el cuadro "Misión" */
+  .mission {
+    padding: 20px;
+    background-color: #e0e0e0;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para el cuadro "Visión" */
+  .vision {
+    padding: 20px;
+    background-color: #d0d0d0;
+  }
