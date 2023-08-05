@@ -11,9 +11,9 @@
                 <p>Somos una empresa nos comprometemos a brindar un excelente servicio de transporte público y tener nuestras
                 unidades de la mejor manera, para poder brindales a todos nustros usuarios  un buen servicio seguro y de
                 calidad, contamos con diferentes rutas para el traslado de los habitantes, nuestro choferes estan 
-                altamente capacitado.
+                altamente capacitado.</p>
         
-                Si necesitas contactar a la empre para conseguir alguna información especial, puedes enviar un correo
+                <p>Si necesitas contactar a la empre para conseguir alguna información especial, puedes enviar un correo
                 a busesblueline@service.ac.cr o llamar al telefono: 2590-7856. </p>
         
             <h2>Visión</h2>
