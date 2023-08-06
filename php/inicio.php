@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nosotros</title>
+    <title>Inicio</title>
     <link rel="stylesheet" href="../css/normalize.css">
     <link rel="stylesheet" href="../css/inicio.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
@@ -11,27 +11,78 @@
 </head>
     <body>
 
-    <header class="header">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="inicio.php">
-                    <img src="../img/Logo.png" alt="Logo" width="180px" height="125px">
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                        <a class="nav-link" href="inicio.php">Inicio</a>
-                        <a class="nav-link" href="nosotros.php">Nosotros</a>
-                        <a class="nav-link" href="rutas.php">Rutas</a>
-                        <a class="nav-link" href="horarios.php">Horarios</a>
-                        <a class="nav-link" href="contacto.php">Contáctenos</a>
+    <?php include 'header.php'; ?>
+
+
+    <!-- CAROUSEL -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="../img/imagen-1.jpg" class="d-block" alt="imagen1">
+            </div>
+            <div class="carousel-item">
+                <img src="../img/imagen-2.jpg" class="d-block" alt="imagen2">
+            </div>
+            <div class="carousel-item">
+                <img src="../img/imagen-3.jpg" class="d-block" alt="imagen3">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only"></span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only"></span>
+        </a>
+    </div>
+    <!-- TERMINA CAROUSEL -->
+
+    <!--Sección de terminales-->
+    <div>
+        <h1 class="h1">Terminales</h1>
+
+        <div class="grid">
+            <div class="row">
+                <div class="card" style="width: 18rem; margin-left:70px">
+                    <img style="height:77%" src="../img/cartago.jpg" alt="...">
+                    <div>
+                        <h3>Cartago</h3>
+                        <p>fdfwevgewge</p>
                     </div>
+                    
+                </div>
+
+                <div class="card" style="width: 18rem; margin-left:30px">
+                    <img src="../img/guanacaste.jpg" alt="...">
+                </div>
+
+                <div class="card" style="width: 18rem; margin-left:30px">
+                    <img src="" alt="">
+                </div>
+
+                <div class="card" style="width: 18rem; margin-left:30px">
+                    <img src="" alt="">
                 </div>
             </div>
-        </nav>
-    </header>
+        </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+        <img style="height:77%" src="../img/cartago.jpg" alt="...">
+            <div class="card-body">
+                <p class="card-text"><h3>Cartago</h3>fdfwevgewge</p>
+            </div>
+    </div>
+    
+
+
+    <?php include 'footer.php'; ?>
 
     <!--JS Bootstrap-->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"

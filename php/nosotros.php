@@ -10,6 +10,8 @@
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
     <body>
+
+    <?php include 'header.php'; ?>
 	
         <div class="Nosotros">
 
@@ -38,6 +40,7 @@
             </div>
         </div>
             
+    <?php include 'footer.php'; ?>
           
     <!--JS Bootstrap-->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
