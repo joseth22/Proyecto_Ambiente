@@ -1,0 +1,146 @@
+.content {
+
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacto {
+    text-align: center;
+    width: 70%;
+}
+
+form {
+    width: 400px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+input,
+textarea {
+    background-color: #F2F2F2;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 7px 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+    border-radius: 8px;
+}
+
+/*Cajita donde se escribe el mensaje*/
+textarea {
+    background-color: #F2F2F2;
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+#boton {
+    background: #09738a;
+    color: #fff;
+    font-size: 18px;
+    font-style: var;
+    padding: 20px;
+    cursor: pointer;
+}
+
+/*-----------------------Cuadros info -----------------------*/
+
+.info{
+    display: flex;
+    position: relative;
+    padding-right: 50px;
+    padding-left: 80px;
+}
+
+.ic{
+    background-color: white;
+    border: 3px solid #092b5a;
+    margin: 10px 10px;
+    width: 170px;
+    height: 180px;
+    text-align: center;
+}
+
+/*-----------------------Iconos -----------------------*/
+
+.fax{
+    width: 60px;
+    height: 60px;
+    padding-top: 10px;
+    padding-bottom: 2px;
+}
+
+.tel{
+    width: 60px;
+    height: 60px;
+    padding-top: 10px;
+    padding-bottom: 2px;
+}
+
+.ubi{
+    width: 60px;
+    height: 60px;
+    padding-top: 10px;
+    padding-bottom: 2px;
+}
+
+.email{
+    width: 60px;
+    height: 60px;
+    padding-top: 10px;
+    padding-bottom: 2px;
+}
+
+
+/*-----------------------Botones -----------------------*/
+
+.btn {
+    border-radius: 2rem;
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    color: #fff;
+    text-decoration: none;
+    background: #09738a;
+}
+
+.btn:hover {
+    background: #e7d9b4;
+    color: #092b5a;
+}
+
+.btn-home {
+    display: flex;
+}
+
+.btn-home a {
+    margin: 0 10px;
+}
+
+/*Estilos de las cajitas*/
+.hic{
+    margin-bottom: 2px;
+    margin-top: 2px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: black;
+}
+
+.pic{
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: black;
+    padding: 10px 0;
+    text-align: center;
+}

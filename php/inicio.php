@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
-    <body>
+<body>
 
     <?php include 'header.php'; ?>
 
@@ -44,41 +44,37 @@
     <!-- TERMINA CAROUSEL -->
 
     <!--Sección de terminales-->
+
+
     <div>
         <h1 class="h1">Terminales</h1>
 
-        <div class="grid">
-            <div class="row">
-                <div class="card" style="width: 18rem; margin-left:70px">
-                    <img style="height:77%" src="../img/cartago.jpg" alt="...">
-                    <div>
-                        <h3>Cartago</h3>
-                        <p>fdfwevgewge</p>
-                    </div>
-                    
+        <div class="contenedor1">
+            <div class="card" style="width: 18rem;">
+                <img src="../img/cartago.jpg" alt="...">
+                <div class="card-body">
+                    <p class="card-text"><h3>Cartago</h3>fdfwevgewge</p>
                 </div>
-
-                <div class="card" style="width: 18rem; margin-left:30px">
-                    <img src="../img/guanacaste.jpg" alt="...">
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="../img/guanacaste.jpg" alt="...">
+                <div class="card-body">
+                    <p class="card-text"><h3>Guanacaste</h3>fdfwevgewge</p>
                 </div>
-
-                <div class="card" style="width: 18rem; margin-left:30px">
-                    <img src="" alt="">
-                </div>
-
-                <div class="card" style="width: 18rem; margin-left:30px">
-                    <img src="" alt="">
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="../img/cartago.jpg" alt="...">
+                <div class="card-body">
+                    <p class="card-text"><h3>Cartago</h3>fdfwevgewge</p>
                 </div>
             </div>
         </div>
     </div>
+        
+        
+  
 
-    <div class="card" style="width: 18rem;">
-        <img style="height:77%" src="../img/cartago.jpg" alt="...">
-            <div class="card-body">
-                <p class="card-text"><h3>Cartago</h3>fdfwevgewge</p>
-            </div>
-    </div>
+    
     
 
 
