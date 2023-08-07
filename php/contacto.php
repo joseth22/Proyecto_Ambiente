@@ -43,14 +43,14 @@
                     </div>
                 </div>
                 <p class="parrafo">Si tiene alguna duda o algún comentario nos puede contactar a cualquiera de nuestros números o redes sociales, o bien, llenar la información de abajo y nosotros nos pondremos en contacto con usted.</p>
-                <form>
+                
+                <form action="formulario_contacto.php" method="post">
                     <h3>Contacto</h3>
                     <input type="text" name="Nombre" placeholder="Nombre">
-                    <input type="text" name="Correo electrónico"
-                        placeholder="Correo">
+                    <input type="text" name="Correo electrónico" placeholder="Correo">
                     <input type="text" name="Teléfono" placeholder="Teléfono">
                     <textarea name="mensaje" placeholder="Escriba su mensaje"></textarea>
-                    <input type="button" value="Enviar" id="boton">
+                    <input type="submit" value="Enviar" id="boton">
                 </form>
             </div>
         </div>
