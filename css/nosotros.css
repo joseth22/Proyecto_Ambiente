@@ -1,37 +1,36 @@
-.quienes{
+.quienes {
     max-width: 500px;
     margin-left: 20px;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    justify-content: left;
 }
 
-.vis-mis{
+.vis-mis {
     display: flex;
     margin-top: 30px;
 }
 
-.nosotros{
+.nosotros {
     display: inline;
 }
 
-.vision{
+.vision {
     max-width: 400px;
     margin: 0 auto;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    margin-left: auto; 
 }
 
-.mision{
+.mision {
     max-width: 400px;
     margin: 0 auto;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    display: flex;
-    justify-content: center;
+    margin-left: auto; 
 }
 
 h2 {
@@ -44,3 +43,4 @@ h2 {
 p {
     margin-bottom: 20px;
 }
+

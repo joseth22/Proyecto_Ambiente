@@ -14,7 +14,7 @@
     <?php include 'header.php'; ?>
 
 
-    <!-- CAROUSEL -->
+    <!--CAROUSEL-->
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -53,19 +53,19 @@
             <div class="card" style="width: 18rem;">
                 <img src="../img/cartago.jpg" alt="...">
                 <div class="card-body">
-                    <p class="card-text"><h3>Cartago</h3>fdfwevgewge</p>
+                    <p class="card-text"><h3>Cartago</h3>100 mestros norte de la estacion de trenes.</p>
                 </div>
             </div>
             <div class="card" style="width: 18rem;">
                 <img src="../img/guanacaste.jpg" alt="...">
                 <div class="card-body">
-                    <p class="card-text"><h3>Guanacaste</h3>fdfwevgewge</p>
+                    <p class="card-text"><h3>Guanacaste</h3>Al frente del centro comercial de Liberia.</p>
                 </div>
             </div>
             <div class="card" style="width: 18rem;">
-                <img src="../img/cartago.jpg" alt="...">
+                <img src="../img/san jose.jpg" alt="...">
                 <div class="card-body">
-                    <p class="card-text"><h3>Cartago</h3>fdfwevgewge</p>
+                    <p class="card-text"><h3>San Jose</h3>250 metros de la coca cola.</p>
                 </div>
             </div>
         </div>
