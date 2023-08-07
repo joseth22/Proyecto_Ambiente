@@ -56,12 +56,16 @@
                     <p class="card-text"><h3>Cartago</h3>100 mestros norte de la estacion de trenes.</p>
                 </div>
             </div>
+
+           
             <div class="card" style="width: 18rem;">
                 <img src="../img/guanacaste.jpg" alt="...">
                 <div class="card-body">
                     <p class="card-text"><h3>Guanacaste</h3>Al frente del centro comercial de Liberia.</p>
                 </div>
             </div>
+
+            
             <div class="card" style="width: 18rem;">
                 <img src="../img/san jose.jpg" alt="...">
                 <div class="card-body">
@@ -71,12 +75,6 @@
         </div>
     </div>
         
-        
-  
-
-    
-    
-
 
     <?php include 'footer.php'; ?>
 
