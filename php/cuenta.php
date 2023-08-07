@@ -20,7 +20,7 @@
         <h2>Mis datos</h2>
         <p>Nombres: <?= $_POST['nombres']?></p>
         <p>Apellidos <?= $_POST['apellidos']?></p>
-        <p>Tarjeta: <?= $_POST['tarjeta']?></p> ?>
+        <p>Tarjeta: <?= $_POST['tarjeta']?></p>
 
     </div>
 
