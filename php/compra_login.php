@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio</title>
+    <title>Inicio de sesión</title>
     <link rel="stylesheet" href="../css/normalize.css">
     <link rel="stylesheet" href="../css/login.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
@@ -14,7 +14,7 @@
     <?php include 'header.php'; ?>
 
     <div class="container">
-                <h2 th:text="#{IniSesion}">Inicie sesion</h2>
+                <h2 th:text="#{IniSesion}">Inicie sesión</h2>
                 <form name="f" method="post"> 
                     <fieldset>
                         <div class="form-group">
@@ -34,7 +34,7 @@
                     </fieldset>
                 </form>
 
-                <a class="mt-5" href="register.php" role="button">Registrarse</a>
+                <a class="mt-5" href="compra_registro.php" role="button">Registrarse</a>
 
             </div>
 

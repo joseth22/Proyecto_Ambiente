@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio</title>
+    <title>Registro</title>
     <link rel="stylesheet" href="../css/normalize.css">
     <link rel="stylesheet" href="../css/login.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
@@ -40,14 +40,14 @@
                         </div>
 
                         <div class="form-group mb-3 row"> 
-                            <label class="col-md-2 col-form-label" for="num_tarjeta" >Ingrese el numero de tarjeta: </label>
+                            <label class="col-md-2 col-form-label" for="num_tarjeta" >Ingrese el número de tarjeta: </label>
                             <div class="col-sm-10"> 
                                 <input type="text" class="form-control form-control-sm col-md-6" placeholder="Num tarjeta" id="num_tarjeta" name="tarjeta" aria-describedby="emailHelp"> 
                             </div>
                         </div>
 
                         <div class="form-group mb-3 row"> 
-                            <label class="col-md-2 col-form-label" for="cvv" th:text="#{ColCVV}">Codigo de la tarjeta:</label>
+                            <label class="col-md-2 col-form-label" for="cvv" th:text="#{ColCVV}">Código de la tarjeta:</label>
                             <div class="col-sm-10"> 
                                 <input type="text" class="form-control form-control-sm col-md-6" placeholder="CVV" id="cvv" name="cvv" aria-describedby="emailHelp"> 
                             </div>

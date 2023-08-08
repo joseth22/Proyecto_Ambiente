@@ -50,10 +50,10 @@
         <h1 class="h1">Terminales</h1>
 
         <div class="contenedor1">
-            <div class="card" style="width: 18rem;">
+            <div class="card" style="width: 18rem; heigth: 50px">
                 <img src="../img/cartago.jpg" alt="...">
                 <div class="card-body">
-                    <p class="card-text"><h3>Cartago</h3>100 mestros norte de la estacion de trenes.</p>
+                    <p class="card-text"><h3>Cartago</h3>100 metros Norte de la estacion de trenes.</p>
                 </div>
             </div>
 
@@ -69,7 +69,7 @@
             <div class="card" style="width: 18rem;">
                 <img src="../img/san jose.jpg" alt="...">
                 <div class="card-body">
-                    <p class="card-text"><h3>San Jose</h3>250 metros de la coca cola.</p>
+                    <p class="card-text"><h3>San José</h3>250 metros de la Coca-Cola.</p>
                 </div>
             </div>
         </div>

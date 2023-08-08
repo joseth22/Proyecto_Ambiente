@@ -55,10 +55,8 @@ textarea {
 /*-----------------------Cuadros info -----------------------*/
 
 .info{
-    display: flex;
-    position: relative;
-    padding-right: 50px;
-    padding-left: 80px;
+
+    align-items: center;
 }
 
 .ic{
@@ -72,30 +70,17 @@ textarea {
 
 /*-----------------------Iconos -----------------------*/
 
-.fax{
-    width: 60px;
-    height: 60px;
-    padding-top: 10px;
-    padding-bottom: 2px;
-}
-
 .tel{
-    width: 60px;
-    height: 60px;
     padding-top: 10px;
     padding-bottom: 2px;
 }
 
 .ubi{
-    width: 60px;
-    height: 60px;
     padding-top: 10px;
     padding-bottom: 2px;
 }
 
 .email{
-    width: 60px;
-    height: 60px;
     padding-top: 10px;
     padding-bottom: 2px;
 }
@@ -128,8 +113,8 @@ textarea {
 
 /*Estilos de las cajitas*/
 .hic{
-    margin-bottom: 2px;
-    margin-top: 2px;
+    margin-bottom: 10px;
+    margin-top: 10px;
     text-align: center;
     font-size: 20px;
     font-weight: 600;

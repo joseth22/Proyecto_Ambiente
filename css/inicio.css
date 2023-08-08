@@ -22,8 +22,9 @@
     padding-top: 80px;
     align-items: center;
     padding: 2% 2%;
+    width: 8rem;
+    height: 500px;
     display: flex;
-
     justify-content: center;
 }
 

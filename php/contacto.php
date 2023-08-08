@@ -18,26 +18,21 @@
             <div class="contacto">
                 <h2>Contáctenos</h2>
                  <div class="info">
-                    <div class="ic">
-                        <img class="fax" src="images/fax.gif" alt="Fax"/>
-                        <h3 class="hic">Fax</h3>
-                        <p class="pic">+506 1234-5678</p>
-                    </div>
 
                     <div class="ic">
-                        <img class="tel" src="images/telefono.gif" alt="Teléfono"/>
+                        <img class="tel" src="../img/telefono.png" alt="Teléfono"/>
                         <h3 class="hic">Teléfono</h3>
                         <p class="pic">+506 1234-5678</p>
                     </div>
 
                     <div class="ic">
-                        <img class="ubi" src="images/ubicacion.gif" alt="Ubicación"/>
+                        <img class="ubi" src="../img/mapa.png" alt="Ubicación"/>
                         <h3 class="hic">Ubicación</h3>
                         <p class="pic">San José, Costa Rica.</p>
                     </div>
 
                     <div class="ic">
-                        <img class="email" src="images/correo-electronico.gif" alt="Email"/>
+                        <img class="email" src="../img/email.png" alt="Email"/>
                         <h3 class="hic">Email</h3>
                         <p class="pic">rutacr@email.com</p>
                     </div>
