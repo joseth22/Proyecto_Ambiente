@@ -6,6 +6,7 @@
     <title>Compra en línea</title>
     <link rel="stylesheet" href="../css/normalize.css">
     <link rel="stylesheet" href="../css/inicio.css">
+    <link real="stylesheet" heref=".../css/compra.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
@@ -22,8 +23,17 @@
             <option value="3">Cartago-San José</option>
             <option value="4">Guanacaste-San José</option>
         </select>
+
+        <form>
+            <label for="fecha">Fecha:</label>
+            <input type="date" id="fecha" name="fecha" required>
+            
+            <button type="submit">Agregar al carrito</button>
+        </form>
+        <!--Llamar a la clase compra_carrito-->
+
+        
     </div>
-    
 
     <?php include 'footer.php'; ?>
 
