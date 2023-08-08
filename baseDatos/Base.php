@@ -1,16 +1,12 @@
 <?php
-
-$sname= "localhost";
-$unmae= "root";
-$password = "";
-
-$db_name = "Proyecto";
-
-$conn = mysqli_connect($sname, $unmae, $password, $db_name);
-
-if (!$conn) {
-	echo "Conexión fallida!";
+//24 references 
+function OpenDB()
+{
+    return mysqli_connect("localhost", "root", "proyecto", " ");
 }
-else{
-    echo "Conexión exitosa";
+//21 references
+function CloseDB($enlace)
+{
+    mysqli_close($enlace);
 }
+?>

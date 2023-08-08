@@ -13,6 +13,446 @@
 
     <?php include 'header.php'; ?>
 
+    <div class="row">
+                 <div class="col-lg-4">
+                   <div class="price-table-summary">
+                     <h4 class="bg-title">SAN JOSE A CARTAGO</h4>
+                     <table>
+                       <tbody>
+                         <tr>
+                           <td>
+                             <strong>Hora: </strong>
+                           </td>
+                           <td class="text-right">04:00 AM</td>
+                         </tr>
+                         <tr>
+                           <td>
+                             <strong>Hora: </strong>
+                           </td>
+                           <td class="text-right">06:15 AM</td>
+                         </tr>
+						 <tr>
+                           <td>
+                             <strong>Hora: </strong>
+                           </td>
+                           <td class="text-right">07:15 AM</td>
+                         </tr>   
+                        <tr>
+                           <td>
+                             <strong>Hora: </strong>
+                           </td>
+                           <td class="text-right">08:15 AM</td>
+                         </tr>
+						 <tr>
+                           <td>
+                             <strong>Hora: </strong>
+                           </td>
+                           <td class="text-right">09:15 AM</td>
+                         </tr> 
+						  <tr>
+                           <td>
+                             <strong>Hora: </strong>
+                           </td>
+                           <td class="text-right">10:15 AM</td>
+                         </tr> 
+						 <tr>
+                           <td>
+                             <strong>Hora: </strong>
+                           </td>
+                           <td class="text-right">11:15 AM</td>
+                         </tr> 
+						 <tr>
+                           <td>
+                             <strong>Hora: </strong>
+                           </td>
+                           <td class="text-right">12:15 PM</td>
+                         </tr> 
+						 <tr>
+                           <td>
+                             <strong>Hora: </strong>
+                           </td>
+                           <td class="text-right">01:15 PM</td>
+                         </tr>  
+						 <tr>
+                           <td>
+                             <strong>Hora: </strong>
+                           </td>
+                           <td class="text-right">02:15 PM</td>
+                         </tr>  
+						 <tr>
+                           <td>
+                             <strong>Hora: </strong>
+                           </td>
+                           <td class="text-right">03:15 PM</td>
+                         </tr> 
+						 <tr>
+                           <td>
+                             <strong>Hora: </strong>
+                           </td>
+                           <td class="text-right">04:15 PM</td>
+                         </tr>  
+						 <tr>
+                           <td>
+                             <strong>Hora: </strong>
+                           </td>
+                           <td class="text-right">05:15 PM</td>
+                         </tr> 
+						 <tr>
+                           <td>
+                             <strong>Hora: </strong>
+                           </td>
+                           <td class="text-right">06:15 PM</td>
+                         </tr>   
+						 <tr>
+                           <td>
+                             <strong>Hora: </strong>
+                           </td>
+                           <td class="text-right">07:45 PM</td>
+                         </tr>  
+						 <tr>
+                           <td>
+                             <strong>Hora: </strong>
+                           </td>
+                           <td class="text-right">09:00 PM</td>
+                         </tr>  
+						   
+                          
+                       </tbody>
+                     </table>
+                   </div>
+                 </div>
+
+                 <div class="col-lg-4">
+                  <div class="price-table-summary">
+                    <h4 class="bg-title">SAN JOSE A GUANACASTE</h4>
+                    <table>
+                      <tbody>
+						  <tr>
+                          <td>
+                            <strong>Hora: </strong>
+                          </td>
+                          <td class="text-right">04:00 AM</td>
+                        </tr>
+						<tr>
+                          <td>
+                            <strong>Hora: </strong>
+                          </td>
+                          <td class="text-right">05:00 AM*</td>
+                        </tr>  
+						 <tr>
+                          <td>
+                            <strong>Hora: </strong>
+                          </td>
+                          <td class="text-right">06:00 AM</td>
+                        </tr> 
+						 <tr>
+                          <td>
+                            <strong>Hora: </strong>
+                          </td>
+                          <td class="text-right">07:00 AM</td>
+                        </tr>  
+						 <tr>
+                          <td>
+                            <strong>Hora: </strong>
+                          </td>
+                          <td class="text-right">08:00 AM</td>
+                        </tr>  
+						 <tr>
+                          <td>
+                            <strong>Hora: </strong>
+                          </td>
+                          <td class="text-right">09:00 AM</td>
+                        </tr>  
+						 <tr>
+                          <td>
+                            <strong>Hora: </strong>
+                          </td>
+                          <td class="text-right">10:00 AM</td>
+                        </tr>  
+						 <tr>
+                          <td>
+                            <strong>Hora: </strong>
+                          </td>
+                          <td class="text-right">11:00 AM</td>
+                        </tr>  
+						 <tr>
+                          <td>
+                            <strong>Hora: </strong>
+                          </td>
+                          <td class="text-right">12:00 MD</td>
+                        </tr>  
+						 <tr>
+                          <td>
+                            <strong>Hora: </strong>
+                          </td>
+                          <td class="text-right">01:00 PM</td>
+                        </tr>  
+						<tr>
+                          <td>
+                            <strong>Hora: </strong>
+                          </td>
+                          <td class="text-right">02:00 PM</td>
+                        </tr> 
+						<tr>
+                          <td>
+                            <strong>Hora: </strong>
+                          </td>
+                          <td class="text-right">03:00 PM</td>
+                        </tr>   
+						<tr>
+                          <td>
+                            <strong>Hora: </strong>
+                          </td>
+                          <td class="text-right">04:00 PM</td>
+                        </tr>   
+						<tr>
+                          <td>
+                            <strong>Hora: </strong>
+                          </td>
+                          <td class="text-right">05:00 PM</td>
+                        </tr>   
+						<tr>
+                          <td>
+                            <strong>Hora: </strong>
+                          </td>
+                          <td class="text-right">06:30 PM</td>
+                        </tr>   
+						<tr>
+                          <td>
+                            <strong>Hora: </strong>
+                          </td>
+                          <td class="text-right">08:00 PM</td>
+                        </tr>   
+                        
+                        
+                        
+                        
+                      </tbody>
+                    </table>
+                    <p>* De Lunes a Viernes únicamente.</p>
+                  </div>
+                </div>
+               </div>
+               <div class="row">
+                 <div class="col-lg-4">
+                   <div class="price-table-summary">
+                     <h4 class="bg-title">CARTAGO A SAN JOSE</h4>
+                     <table>
+                       <tbody>
+                         <tr>
+                           <td>
+                             <strong>Hora: </strong>
+                           </td>
+                           <td class="text-right">04:00 AM</td>
+                         </tr>
+                         <tr>
+                           <td>
+                             <strong>Hora: </strong>
+                           </td>
+                           <td class="text-right">06:15 AM</td>
+                         </tr>
+						 <tr>
+                           <td>
+                             <strong>Hora: </strong>
+                           </td>
+                           <td class="text-right">07:15 AM</td>
+                         </tr>   
+                        <tr>
+                           <td>
+                             <strong>Hora: </strong>
+                           </td>
+                           <td class="text-right">08:15 AM</td>
+                         </tr>
+						 <tr>
+                           <td>
+                             <strong>Hora: </strong>
+                           </td>
+                           <td class="text-right">09:15 AM</td>
+                         </tr> 
+						  <tr>
+                           <td>
+                             <strong>Hora: </strong>
+                           </td>
+                           <td class="text-right">10:15 AM</td>
+                         </tr> 
+						 <tr>
+                           <td>
+                             <strong>Hora: </strong>
+                           </td>
+                           <td class="text-right">11:15 AM</td>
+                         </tr> 
+						 <tr>
+                           <td>
+                             <strong>Hora: </strong>
+                           </td>
+                           <td class="text-right">12:15 PM</td>
+                         </tr> 
+						 <tr>
+                           <td>
+                             <strong>Hora: </strong>
+                           </td>
+                           <td class="text-right">01:15 PM</td>
+                         </tr>  
+						 <tr>
+                           <td>
+                             <strong>Hora: </strong>
+                           </td>
+                           <td class="text-right">02:15 PM</td>
+                         </tr>  
+						 <tr>
+                           <td>
+                             <strong>Hora: </strong>
+                           </td>
+                           <td class="text-right">03:15 PM</td>
+                         </tr> 
+						 <tr>
+                           <td>
+                             <strong>Hora: </strong>
+                           </td>
+                           <td class="text-right">04:15 PM</td>
+                         </tr>  
+						 <tr>
+                           <td>
+                             <strong>Hora: </strong>
+                           </td>
+                           <td class="text-right">05:15 PM</td>
+                         </tr> 
+						 <tr>
+                           <td>
+                             <strong>Hora: </strong>
+                           </td>
+                           <td class="text-right">06:15 PM</td>
+                         </tr>   
+						 <tr>
+                           <td>
+                             <strong>Hora: </strong>
+                           </td>
+                           <td class="text-right">07:45 PM</td>
+                         </tr>  
+						 <tr>
+                           <td>
+                             <strong>Hora: </strong>
+                           </td>
+                           <td class="text-right">09:00 PM</td>
+                         </tr>  
+						   
+                          
+                       </tbody>
+                     </table>
+                   </div>
+                 </div>
+
+                 <div class="col-lg-4">
+                  <div class="price-table-summary">
+                    <h4 class="bg-title">GUANACASTE A SAN JOSE</h4>
+                    <table>
+                      <tbody>
+						  <tr>
+                          <td>
+                            <strong>Hora: </strong>
+                          </td>
+                          <td class="text-right">04:00 AM</td>
+                        </tr>
+						<tr>
+                          <td>
+                            <strong>Hora: </strong>
+                          </td>
+                          <td class="text-right">05:00 AM*</td>
+                        </tr>  
+						 <tr>
+                          <td>
+                            <strong>Hora: </strong>
+                          </td>
+                          <td class="text-right">06:00 AM</td>
+                        </tr> 
+						 <tr>
+                          <td>
+                            <strong>Hora: </strong>
+                          </td>
+                          <td class="text-right">07:00 AM</td>
+                        </tr>  
+						 <tr>
+                          <td>
+                            <strong>Hora: </strong>
+                          </td>
+                          <td class="text-right">08:00 AM</td>
+                        </tr>  
+						 <tr>
+                          <td>
+                            <strong>Hora: </strong>
+                          </td>
+                          <td class="text-right">09:00 AM</td>
+                        </tr>  
+						 <tr>
+                          <td>
+                            <strong>Hora: </strong>
+                          </td>
+                          <td class="text-right">10:00 AM</td>
+                        </tr>  
+						 <tr>
+                          <td>
+                            <strong>Hora: </strong>
+                          </td>
+                          <td class="text-right">11:00 AM</td>
+                        </tr>  
+						 <tr>
+                          <td>
+                            <strong>Hora: </strong>
+                          </td>
+                          <td class="text-right">12:00 MD</td>
+                        </tr>  
+						 <tr>
+                          <td>
+                            <strong>Hora: </strong>
+                          </td>
+                          <td class="text-right">01:00 PM</td>
+                        </tr>  
+						<tr>
+                          <td>
+                            <strong>Hora: </strong>
+                          </td>
+                          <td class="text-right">02:00 PM</td>
+                        </tr> 
+						<tr>
+                          <td>
+                            <strong>Hora: </strong>
+                          </td>
+                          <td class="text-right">03:00 PM</td>
+                        </tr>   
+						<tr>
+                          <td>
+                            <strong>Hora: </strong>
+                          </td>
+                          <td class="text-right">04:00 PM</td>
+                        </tr>   
+						<tr>
+                          <td>
+                            <strong>Hora: </strong>
+                          </td>
+                          <td class="text-right">05:00 PM</td>
+                        </tr>   
+						<tr>
+                          <td>
+                            <strong>Hora: </strong>
+                          </td>
+                          <td class="text-right">06:30 PM</td>
+                        </tr>   
+						<tr>
+                          <td>
+                            <strong>Hora: </strong>
+                          </td>
+                          <td class="text-right">08:00 PM</td>
+                        </tr>   
+                        
+                        
+                        
+                        
+                      </tbody>
+                    </table>
+                    <p>* De Lunes a Viernes únicamente.</p>
+                  </div>
+                </div>
+               </div>
 
     <?php include 'footer.php'; ?>
         

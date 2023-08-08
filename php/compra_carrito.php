@@ -12,12 +12,7 @@
 <body>
 
     <?php include 'header-compra.php'; ?>
-    <!DOCTYPE html>
-<html>
-<head>
-    <title>Factura de Tiquete de Autobús</title>
-    <link rel="stylesheet" href="compra.css">
-</head>
+
 <body>
     <div class="factura">
         <?php

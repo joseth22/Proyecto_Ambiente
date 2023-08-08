@@ -15,7 +15,7 @@
 form {
     width: 400px;
     margin: auto;
-    background: rgba(0, 0, 0, 0.4);
+    background: white;
     padding: 10px 20px;
     box-sizing: border-box;
     margin-bottom: 20px;
@@ -55,15 +55,16 @@ textarea {
 /*-----------------------Cuadros info -----------------------*/
 
 .info{
-
+    display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .ic{
     background-color: white;
-    border: 3px solid #092b5a;
+    border: 3px solid gray;
     margin: 10px 10px;
-    width: 170px;
+    width: 200px;
     height: 180px;
     text-align: center;
 }
@@ -95,12 +96,12 @@ textarea {
     padding: 10px 40px;
     color: #fff;
     text-decoration: none;
-    background: #09738a;
+    background: #0f1e74;
 }
 
 .btn:hover {
     background: #e7d9b4;
-    color: #092b5a;
+    color: #3c5e8f;
 }
 
 .btn-home {
@@ -111,7 +112,7 @@ textarea {
     margin: 0 10px;
 }
 
-/*Estilos de las cajitas*/
+/*---Estilos de las cajitas---*/
 .hic{
     margin-bottom: 10px;
     margin-top: 10px;
