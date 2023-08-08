@@ -50,7 +50,7 @@
         <h1 class="h1">Terminales</h1>
 
         <div class="contenedor1">
-            <div class="card" style="width: 18rem; heigth: 50px">
+            <div class="card" style="width: 18rem;">
                 <img src="../img/cartago.jpg" alt="...">
                 <div class="card-body">
                     <p class="card-text"><h3>Cartago</h3>100 metros Norte de la estacion de trenes.</p>

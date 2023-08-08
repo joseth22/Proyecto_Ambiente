@@ -3,16 +3,17 @@
 <head>
 <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carrito</title>
+    <title>Facturación</title>
     <link rel="stylesheet" href="../css/normalize.css">
-    <link rel="stylesheet" href="../css/inicio.css">
+    <link rel="stylesheet" href="../css/factura.css">
+    <link rel="stylesheet" href="../css/compra.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <title>Factura de Tiquete de Autobús</title>
-    <link rel="stylesheet" href="compra.css">
+    
 </head>
 
 <body>
+    <?php include 'header-compra.php'; ?>
     <div class="factura">
         <?php
         if ($_SERVER["REQUEST_METHOD"] === "POST") {

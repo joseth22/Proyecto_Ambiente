@@ -1,0 +1,16 @@
+.row{
+    justify-items: center;
+}
+
+table {
+    color: #737373;
+    margin: 0 0 1.5em;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-width: 1px 0 0 1px;
+    width: 100%;
+    font-size: 15px;
+}
+
+
+

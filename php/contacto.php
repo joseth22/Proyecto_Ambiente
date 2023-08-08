@@ -22,19 +22,19 @@
                     <div class="ic">
                         <img class="tel" src="../img/telefono.png" alt="Teléfono"/>
                         <h3 class="hic">Teléfono</h3>
-                        <p class="pic">+506 1234-5678</p>
+                        <p class="pic">+506 2222-2222</p>
                     </div>
 
                     <div class="ic">
                         <img class="ubi" src="../img/mapa.png" alt="Ubicación"/>
-                        <h3 class="hic">Ubicación</h3>
+                        <h3 class="hic">Oficina</h3>
                         <p class="pic">San José, Costa Rica.</p>
                     </div>
 
                     <div class="ic">
                         <img class="email" src="../img/email.png" alt="Email"/>
                         <h3 class="hic">Email</h3>
-                        <p class="pic">rutacr@email.com</p>
+                        <p class="pic">serviciocliente@blueline.com</p>
                     </div>
                 </div>
                 <p class="parrafo">Si tiene alguna duda o algún comentario nos puede contactar a cualquiera de nuestros números o redes sociales, o bien, llenar la información de abajo y nosotros nos pondremos en contacto con usted.</p>
