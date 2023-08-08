@@ -1,4 +1,4 @@
 CREATE TABLE Rol (
-    id_rol INT AUTO_INCREMENT PRIMARY KEY,
+    id_rol INT PRIMARY KEY,
     rol VARCHAR
 );

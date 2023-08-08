@@ -1,5 +1,5 @@
 CREATE TABLE Datos_login (
-    id_login INT AUTO_INCREMENT PRIMARY KEY,
+    id_login INT PRIMARY KEY,
     correo VARCHAR(100),
     contraseña VARCHAR(100),
     id_usuario INT,

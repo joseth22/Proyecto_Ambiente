@@ -1,5 +1,5 @@
 CREATE TABLE Tiquete (
-    id_tiquete INT AUTO_INCREMENT PRIMARY KEY,
+    id_tiquete INT PRIMARY KEY,
     id_tipo INT,
     id_ruta INT,
     id_horario INT,

@@ -1,5 +1,5 @@
 CREATE TABLE Factura (
-    id_factura INT AUTO_INCREMENT PRIMARY KEY,
+    id_factura INT PRIMARY KEY,
     descripcion VARCHAR,
     id_carrito INT,
     id_tiquete INT,

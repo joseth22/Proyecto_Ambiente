@@ -1,5 +1,5 @@
 CREATE TABLE Horario(
-    id_horario INT AUTO_INCREMENT PRIMARY KEY,
-    hora VARCHAR
+    id_horario INT PRIMARY KEY,
+    hora DATATIME
 );
 

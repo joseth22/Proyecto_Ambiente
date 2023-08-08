@@ -1,5 +1,5 @@
 CREATE TABLE Carrito (
-    id_carrito INT AUTO_INCREMENT PRIMARY KEY,
+    id_carrito INT PRIMARY KEY,
     fecha DATE,
     cantidad INT,
     id_tiquete INT,

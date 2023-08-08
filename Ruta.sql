@@ -1,5 +1,5 @@
 CREATE TABLE Ruta(
-    id_ruta INT AUTO_INCREMENT PRIMARY KEY,
+    id_ruta INT PRIMARY KEY,
     ruta VARCHAR,
     precio int
 );
