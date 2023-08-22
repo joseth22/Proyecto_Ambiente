@@ -6,6 +6,7 @@
     <title>Mi cuenta</title>
     <link rel="stylesheet" href="../css/normalize.css">
     <link rel="stylesheet" href="../css/inicio.css">
+    <link rel="stylesheet" href="../css/mi_cuenta.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
@@ -15,20 +16,17 @@
 
     <div>
         <h1 class="h1">Mi cuenta</h1>
-        <p>Bienvenido 
-            <?= $_POST['username']?></p>
+        <p>Bienvenida Vanessa
+            <?$nombre = "Vanessa";?></p>
 
         <h2>Mis datos</h2>
-        <p>Nombres: 
-            <?= $_POST['nombres']?></p>
-        <p>Apellidos 
-            <?= $_POST['apellidos']?></p>
-        <p>Tarjeta: 
-            <?= $_POST['tarjeta']?></p>
-
+        <p>Nombres: Vanessa Sofia
+            <?$nombre = "Vanessa";?></p>
+        <p>Apellidos: Arias Madrigal
+            <?$apellido = "Arias";?></p>
+        <p>Tarjeta: 68743884
+            <?$Tajerta = '68743884'?></p>
     </div>
-
-        
 
     <?php include 'footer.php'; ?>
 

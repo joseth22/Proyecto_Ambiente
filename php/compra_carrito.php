@@ -20,8 +20,9 @@
             $origen = $_POST["origen"];
             $destino = $_POST["destino"];
             $fecha = $_POST["fecha"];
-            $precio = 50.00; // Precio del tiquete (puedes obtenerlo de la base de datos)
+            $precio = 50.00; 
 
+            
             // Cálculos para la factura
             $subtotal = $precio;
             $impuesto = $subtotal * 0.16;
