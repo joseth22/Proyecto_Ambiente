@@ -1,10 +1,15 @@
 <?php
-//24 references 
 function OpenDB()
 {
-    return mysqli_connect("localhost", "root", "buses", " ");
+    $enlace = mysqli_connect("3307", "root", "viajes", "Jmontero123.");
+
+    if (!$enlace) {
+        die("Error al conectar con la base de datos: " . mysqli_connect_error());
+    }
+
+    return $enlace;
 }
-//21 references
+
 function CloseDB($enlace)
 {
     mysqli_close($enlace);

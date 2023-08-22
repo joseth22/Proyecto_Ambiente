@@ -44,10 +44,8 @@
     <!-- TERMINA CAROUSEL -->
 
     <!--Sección de terminales-->
-
-
     <div>
-        <h1 class="h1">Terminales</h1>
+        <h1 class="h1">Terminales</h1> 
                 <img src="../img/cartago.jpg" alt="...">
                 <div class="card-body">
                     <p class="card-text"><h3>Cartago</h3>100 metros Norte de la estacion de trenes.</p>

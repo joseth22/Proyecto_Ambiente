@@ -8,7 +8,7 @@
     <?php
     if ($_SERVER["REQUEST_METHOD"] === "POST") {
         $nombre = $_POST["Nombre"];
-        $correo = $_POST["Correo electrónico"];
+        $correo = $_POST["Correo"]; // Cambio aquí
         $telefono = $_POST["Teléfono"];
         $mensaje = $_POST["mensaje"];
 
@@ -18,7 +18,7 @@
         // Por ejemplo, mostraremos los datos recibidos en el navegador:
         echo "<h2>Información recibida:</h2>";
         echo "<p><strong>Nombre:</strong> " . $nombre . "</p>";
-        echo "<p><strong>Correo electrónico:</strong> " . $correo . "</p>";
+        echo "<p><strong>Correo:</strong> " . $correo . "</p>";
         echo "<p><strong>Teléfono:</strong> " . $telefono . "</p>";
         echo "<p><strong>Mensaje:</strong> " . $mensaje . "</p>";
     } else {
@@ -27,3 +27,4 @@
     ?>
 </body>
 </html>
+
