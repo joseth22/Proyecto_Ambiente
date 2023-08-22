@@ -15,12 +15,16 @@
 
     <div>
         <h1 class="h1">Mi cuenta</h1>
-        <p>Bienvenido <?= $_POST['username']?></p>
+        <p>Bienvenido 
+            <?= $_POST['username']?></p>
 
         <h2>Mis datos</h2>
-        <p>Nombres: <?= $_POST['nombres']?></p>
-        <p>Apellidos <?= $_POST['apellidos']?></p>
-        <p>Tarjeta: <?= $_POST['tarjeta']?></p>
+        <p>Nombres: 
+            <?= $_POST['nombres']?></p>
+        <p>Apellidos 
+            <?= $_POST['apellidos']?></p>
+        <p>Tarjeta: 
+            <?= $_POST['tarjeta']?></p>
 
     </div>
 

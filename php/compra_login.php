@@ -12,6 +12,7 @@
 <body>
 
     <?php include 'header.php'; ?>
+    <?php include '../baseDatos/Base.php'; ?>
 
     <div class="container">
                 <h2 th:text="#{IniSesion}">Inicie sesión</h2>
@@ -34,6 +35,24 @@
                     </fieldset>
                 </form>
 
+                <?php
+                    $nombre = "Vanessa";
+                    $password = "123";
+
+                    if ($_SERVER["REQUEST_METHOD"] == "POST") {
+                        $nombreI = $_POST['username'];
+                        $passwordI = $_POST['password'];
+
+                        // Verifica si las credenciales coinciden
+                        if ($nombre == $nombreI && $password == $passwordI) {
+                            // Las credenciales son correctas, redirige al archivo "compra_inicio"
+                            header("Location: compra_inicio.php");
+                            exit(); // Importante: asegúrate de salir del script después de redirigir
+                        } else {
+                            $mensajeError = "Credenciales incorrectas. Por favor, verifica tu nombre de usuario y contraseña.";
+                        }
+                    }
+                ?>
                 <a class="mt-5" href="compra_registro.php" role="button">Registrarse</a>
 
             </div>

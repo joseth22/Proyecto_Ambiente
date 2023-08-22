@@ -59,9 +59,6 @@
                                 <input type="text" class="form-control form-control-sm col-md-6" placeholder="Contraseña" id="password" name="password" aria-describedby="emailHelp"> 
                             </div>
                         </div>
-
-
-
                         <button type="submit" class="btn btn-primary" value="Guardar">Aceptar</button>
                     </form>  
                 </div>
