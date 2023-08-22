@@ -26,8 +26,6 @@
                 a busesblueline@service.ac.cr o llamar al telefono: 2590-7856. </p>
             </div>
             
-            <div class="vis-mis">
-
                 <h2>Visión</h2>
                 <div class="vision">
                     <p>Ser la empresa de referencia del sector del transporte y la logística gracias al compromiso, implicación y los servicios flexibles y ajustados a las necesidades de los clientes para poder transportar cualquier tipo de mercancía creando un vínculo a largo plazo con estos clientes.</p>
