@@ -44,24 +44,29 @@
     <!-- TERMINA CAROUSEL -->
 
     <!--Sección de terminales-->
+
     <div>
         <h1 class="h1">Terminales</h1> 
+        <br>
+            <div class="card" style="width: 18%;">
                 <img src="../img/cartago.jpg" alt="...">
                 <div class="card-body">
                     <p class="card-text"><h3>Cartago</h3>100 metros Norte de la estacion de trenes.</p>
                 </div>
             </div>
 
-           
-            <div class="card" style="width: 18rem;">
+            <br>
+
+            <div class="card" style="width: 18%;">
                 <img src="../img/guanacaste.jpg" alt="...">
                 <div class="card-body">
                     <p class="card-text"><h3>Guanacaste</h3>Al frente del centro comercial de Liberia.</p>
                 </div>
             </div>
-
             
-            <div class="card" style="width: 18rem;">
+            <br>
+
+            <div class="card" style="width: 18%;">
                 <img src="../img/san jose.jpg" alt="...">
                 <div class="card-body">
                     <p class="card-text"><h3>San José</h3>250 metros de la Coca-Cola.</p>

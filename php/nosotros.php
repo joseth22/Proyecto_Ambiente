@@ -12,7 +12,8 @@
     <body>
 
     <?php include 'header.php'; ?>
-	
+    
+    <div style="max-width: 600px;">
         <div class="Nosotros">
 
             <h2>¿Quienes somos?</h2>
@@ -25,19 +26,18 @@
                 <p>Si necesitas contactar a la empre para conseguir alguna información especial, puedes enviar un correo
                 a busesblueline@service.ac.cr o llamar al telefono: 2590-7856. </p>
             </div>
-            
-                <h2>Visión</h2>
-                <div class="vision">
-                    <p>Ser la empresa de referencia del sector del transporte y la logística gracias al compromiso, implicación y los servicios flexibles y ajustados a las necesidades de los clientes para poder transportar cualquier tipo de mercancía creando un vínculo a largo plazo con estos clientes.</p>
-                </div>
 
-                <h2>Misión</h2>
-                <div class="mision">
-                    <p>Proporcionar los servicios de transporte y logística en el ámbito nacional de una manera profesional, cubriendo las necesidades de los clientes y proporcionando un trato personalizado para que cumplan sus objetivos.</p>
-                </div>
+            <h2>Visión</h2>
+            <div class="vision">
+                <p>Ser la empresa de referencia del sector del transporte y la logística gracias al compromiso, implicación y los servicios flexibles y ajustados a las necesidades de los clientes para poder transportar cualquier tipo de mercancía creando un vínculo a largo plazo con estos clientes.</p>
+            </div>
+
+            <h2>Misión</h2>
+            <div class="mision">
+                <p>Proporcionar los servicios de transporte y logística en el ámbito nacional de una manera profesional, cubriendo las necesidades de los clientes y proporcionando un trato personalizado para que cumplan sus objetivos.</p>
             </div>
         </div>
-            
+     </div>
     <?php include 'footer.php'; ?>
           
     <!--JS Bootstrap-->

@@ -21,9 +21,9 @@
                 <img src="../img/rutacar.jpg" alt="...">
                 <div class="card-body">
                     <p class="card-text"><h3>Cartago</h3>100 mestros norte de la estacion de trenes.</p>
-                    
                 </div>
             </div>
+            <br>
 
             <div class="contenedor2">
             <div class="card" style="width: 18rem;">
@@ -32,6 +32,7 @@
                     <p class="card-text"><h3>Guanacaste</h3>Al frente del centro comercial de Liberia.</p>
                 </div>
             </div>
+            <br>
 
             <div class="contenedor3">
             <div class="card" style="width: 18rem;">

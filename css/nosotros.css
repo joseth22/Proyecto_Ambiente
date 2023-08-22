@@ -1,46 +1,25 @@
 .quienes {
-    max-width: 500px;
-    margin-left: 20px;
     padding: 20px;
+    max-width: 600px; /* o width: 600px; si prefieres un ancho fijo */
+    margin: 0 auto;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
 
-.vis-mis {
-    display: flex;
-    margin-top: 30px;
-}
-
-.nosotros {
-    display: inline;
-}
-
-.vision {
+.vision, .mision {
     max-width: 400px;
     margin: 0 auto;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    margin-left: auto; 
-}
-
-.mision {
-    max-width: 400px;
-    margin: 0 auto;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    margin-left: auto; 
 }
 
 h2 {
     color: #007bff;
     margin-top: 50px;
     padding-top: 50px;
-    margin-left: 20px;
 }
 
 p {
     margin-bottom: 20px;
 }
-
