@@ -1,17 +1,15 @@
 <?php
-function OpenDB()
-{
-    $enlace = mysqli_connect("3307", "root", "viajes", "Jmontero123.");
+$servidor = 'localhost';
+$usuario = 'root';
+$contrasena = 'Jmontero123.';
+$db = 'mydb';
 
-    if (!$enlace) {
-        die("Error al conectar con la base de datos: " . mysqli_connect_error());
-    }
+$conexion = new mysqli($servidor, $usuario, $contrasena, $db);
 
-    return $enlace;
+if($conexion->connect_error){
+    die($conexion->connect_error);
 }
-
-function CloseDB($enlace)
-{
-    mysqli_close($enlace);
+else{
+    echo 'Conexion exitosa';
 }
 ?>

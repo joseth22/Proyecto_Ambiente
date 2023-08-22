@@ -6,24 +6,25 @@
 </head>
 <body>
     <?php
-    if ($_SERVER["REQUEST_METHOD"] === "POST") {
-        $nombre = $_POST["Nombre"];
-        $correo = $_POST["Correo"]; // Cambio aquí
-        $telefono = $_POST["Teléfono"];
-        $mensaje = $_POST["mensaje"];
+            // Por ejemplo, mostraremos los datos recibidos en el navegador:
+            echo "<h2>Información recibida:</h2>";
 
-        // Puedes realizar aquí las acciones que necesites con los datos recibidos,
-        // como enviar un correo electrónico, almacenarlos en una base de datos, etc.
+    $nombre = $_POST['Nombre'];  
+    $telefono = $_POST['Teléfono'];
+    $mensaje = $_POST['mensaje'];
 
-        // Por ejemplo, mostraremos los datos recibidos en el navegador:
-        echo "<h2>Información recibida:</h2>";
-        echo "<p><strong>Nombre:</strong> " . $nombre . "</p>";
-        echo "<p><strong>Correo:</strong> " . $correo . "</p>";
-        echo "<p><strong>Teléfono:</strong> " . $telefono . "</p>";
-        echo "<p><strong>Mensaje:</strong> " . $mensaje . "</p>";
+    //echo $nombre . " " . $telefono . " " . $mensaje;
+
+    if (isset($_POST['Correo'])) {
+        // Acceder a la clave "Correo"
+        $correo = $_POST['Correo'];
+        // Hacer algo con $correo
     } else {
-        echo "<h2>Error: No se han recibido datos del formulario.</h2>";
+        $correo = "lucia@gmail.com";
+        // La clave "Correo" no existe en el arreglo
+        // Manejar este caso apropiadamente
     }
+    echo $nombre . "<br>" .  $correo . "<br>". $telefono . "<br>" . $mensaje;
     ?>
 </body>
 </html>
