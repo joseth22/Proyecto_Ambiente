@@ -50,3 +50,14 @@
     margin-bottom: 50px;
 }
 
+.image-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.image-container img {
+    max-width: 100%; /* Asegura que las imágenes no se salgan de su contenedor */
+    margin: 5px; /* Espacio entre las imágenes */
+}
+

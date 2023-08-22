@@ -8,7 +8,23 @@
     <link rel="stylesheet" href="../css/inicio.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-</head>
+    <style>
+        .image-container {
+            display: flex;
+            justify-content: center; /* Opcional: Alinea las imágenes al centro */
+            align-items: center; /* Opcional: Alinea las imágenes verticalmente */
+        }
+
+        .image-container img {
+            max-width: 100%; /* Asegura que las imágenes no se salgan de su contenedor */
+            margin: 15px; /* Espacio entre las imágenes */
+        }
+
+        .h1 {
+            text-align: center;
+        }
+    </style>
+    </head>
 <body>
 
     <?php include 'header.php'; ?>
@@ -48,30 +64,32 @@
     <div>
         <h1 class="h1">Terminales</h1> 
         <br>
-            <div class="card" style="width: 18%;">
-                <img src="../img/cartago.jpg" alt="...">
-                <div class="card-body">
-                    <p class="card-text"><h3>Cartago</h3>100 metros Norte de la estacion de trenes.</p>
+            <div class="image-container">
+                <div class="card" style="width: 18%; margin: 15px;">
+                    <img src="../img/cartago.jpg" alt="...">
+                    <div class="card-body">
+                        <p class="card-text"><h3>Cartago</h3>100 metros Norte de la estacion de trenes.</p>
+                    </div>
                 </div>
-            </div>
 
-            <br>
+                <br>
 
-            <div class="card" style="width: 18%;">
-                <img src="../img/guanacaste.jpg" alt="...">
-                <div class="card-body">
-                    <p class="card-text"><h3>Guanacaste</h3>Al frente del centro comercial de Liberia.</p>
+                <div class="card" style="width: 18%; margin: 15px;">
+                    <img src="../img/guanacaste.jpg" alt="...">
+                    <div class="card-body">
+                        <p class="card-text"><h3>Guanacaste</h3>Al frente del centro comercial de Liberia.</p>
+                    </div>
                 </div>
-            </div>
-            
-            <br>
+                
+                <br>
 
-            <div class="card" style="width: 18%;">
-                <img src="../img/san jose.jpg" alt="...">
-                <div class="card-body">
-                    <p class="card-text"><h3>San José</h3>250 metros de la Coca-Cola.</p>
+                <div class="card" style="width: 18%;margin: 15px;">
+                    <img src="../img/san jose.jpg" alt="...">
+                    <div class="card-body">
+                        <p class="card-text"><h3>San José</h3>250 metros de la Coca-Cola.</p>
+                    </div>
                 </div>
-            </div>
+            </div>    
         </div>
     </div>
         
