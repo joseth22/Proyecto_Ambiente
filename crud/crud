@@ -1,0 +1,45 @@
+<?php
+//Creacion del formulario de contacto
+$sql = "INSERT INTO contacto (nombre, correo, telefono, mensaje) VALUES ('$nombre', '$correo', '$telefono', '$mensaje')";
+
+if ($conn->query($sql) === TRUE) {
+    echo "Registro creado con éxito.";
+} else {
+    echo "Error: " . $sql . "<br>" . $conn->error;
+}
+
+//Leer el formulario de contacto
+$sql = "SELECT id, nombre, correo, telefono, mensaje FROM contacto";
+$result = $conn->query($sql);
+
+if ($result->num_rows > 0) {
+    while ($row = $result->fetch_assoc()) {
+        echo "ID: " . $row["id"] . "<br>";
+        echo "Nombre: " . $row["nombre"] . "<br>";
+        echo "Correo: " . $row["correo"] . "<br>";
+        echo "Teléfono: " . $row["telefono"] . "<br>";
+        echo "Mensaje: " . $row["mensaje"] . "<br><br>";
+    }
+} else {
+    echo "No se encontraron registros.";
+}
+
+//Actualizar el formulario de contacto
+while ($row = $result->fetch_assoc()) {
+    // Mostrar información del registro
+    // ...
+
+    // Agregar un enlace para actualizar
+    echo "<a href='actualizar.php?id=" . $row["id"] . "'>Actualizar</a>";
+}
+
+
+//Eliminar el formulario de contacto
+while ($row = $result->fetch_assoc()) {
+    // Mostrar información del registro
+    // ...
+
+    // Agregar un enlace para eliminar
+    echo "<a href='eliminar.php?id=" . $row["id"] . "'>Eliminar</a>";
+}
+?>
