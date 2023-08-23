@@ -30,9 +30,9 @@
             
             <button type="submit">Agregar al carrito</button>
         </form>
-        <!--Llamar a la clase compra_carrito-->
-
-        
+        <?php
+        header("Location: compra_carrito.php");
+        ?>
     </div>
 
     <?php include 'footer.php'; ?>

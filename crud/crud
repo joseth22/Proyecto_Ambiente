@@ -26,20 +26,14 @@ if ($result->num_rows > 0) {
 
 //Actualizar el formulario de contacto
 while ($row = $result->fetch_assoc()) {
-    // Mostrar información del registro
-    // ...
-
-    // Agregar un enlace para actualizar
+ 
     echo "<a href='actualizar.php?id=" . $row["id"] . "'>Actualizar</a>";
 }
 
 
 //Eliminar el formulario de contacto
 while ($row = $result->fetch_assoc()) {
-    // Mostrar información del registro
-    // ...
 
-    // Agregar un enlace para eliminar
     echo "<a href='eliminar.php?id=" . $row["id"] . "'>Eliminar</a>";
 }
 ?>

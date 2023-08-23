@@ -12,60 +12,26 @@
 <body>
 
     <?php include 'header-compra.php'; ?>
-
 <body>
-    <div class="factura">
-        <?php
-        if ($_SERVER["REQUEST_METHOD"] === "POST") {
-            $origen = $_POST["origen"];
-            $destino = $_POST["destino"];
-            $fecha = $_POST["fecha"];
-            $precio = 50.00; 
+    <h1>Carrito</h1>
+<?php
+session_start();
+$tiquetesComprados = isset($_SESSION['tiquetes_comprados']) ? $_SESSION['tiquetes_comprados'] : [];
 
-            
-            // Cálculos para la factura
-            $subtotal = $precio;
-            $impuesto = $subtotal * 0.16;
-            $total = $subtotal + $impuesto;
-            ?>
+// Agregar tiquetes por defecto si no hay tiquetes en el carrito
+    if (empty($tiquetesComprados)) {
+        $tiquetesComprados[] = array(
+            'origen' => 'Cartago',
+            'destino' => 'San Jose',
+            'fecha' => '2023-08-01'
+        );
+    }
 
-            <h2>Factura de Tiquete de Autobús</h2>
-            <table>
-                <tr>
-                    <td><strong>Origen:</strong></td>
-                    <td><?php echo $origen; ?></td>
-                </tr>
-                <tr>
-                    <td><strong>Destino:</strong></td>
-                    <td><?php echo $destino; ?></td>
-                </tr>
-                <tr>
-                    <td><strong>Fecha:</strong></td>
-                    <td><?php echo $fecha; ?></td>
-                </tr>
-                <tr>
-                    <td><strong>Precio Unitario:</strong></td>
-                    <td>$<?php echo number_format($precio, 2); ?></td>
-                </tr>
-                <tr>
-                    <td><strong>Subtotal:</strong></td>
-                    <td>$<?php echo number_format($subtotal, 2); ?></td>
-                </tr>
-                <tr>
-                    <td><strong>Impuesto (16%):</strong></td>
-                    <td>$<?php echo number_format($impuesto, 2); ?></td>
-                </tr>
-                <tr>
-                    <td><strong>Total:</strong></td>
-                    <td>$<?php echo number_format($total, 2); ?></td>
-                </tr>
-            </table>
-        <?php
-        } else {
-            header("Location: index.html");
-            exit();
-        }
-        ?>
-    </div>
+    echo "<ul>";
+    foreach ($tiquetesComprados as $indice => $tiquete) {
+        echo "<li>{$tiquete['origen']} - {$tiquete['destino']} - {$tiquete['fecha']} <a href='modificar_tiquete.php?indice={$indice}'>Modificar</a></li>";
+    }
+    echo "</ul>";
+    ?>
 </body>
 </html>
